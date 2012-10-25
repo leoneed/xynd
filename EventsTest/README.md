@@ -1,12 +1,15 @@
 #### Есть ряд способов работы с Events:
 1) Как со статическим объектом:
+
 	Events.addEventListener(event, func);
 	Events.triggerGlobalEvent(event);
 
 2) Создание нового объекта:
+
 	var eventsObject = new Events();
 
 3) Добавление методов для работы с событиями к существующему объекту:
+
 	Events(eventsObject);
 	eventsObject.addEventListener(event, func);
 
