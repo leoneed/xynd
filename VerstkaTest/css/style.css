@@ -1,6 +1,7 @@
 ul {
 	display: inline-block;
 	vertical-align: middle;
+	padding-left: 0;
 }
 
 li {
